@@ -42,6 +42,8 @@ public class CarController : MonoBehaviour
     
     private Vector3 _currentLocalVelocity = Vector3.zero;
     private float _carVelocityRatio;
+
+    public Vector3 CurrentLocalVelocity { get { return _currentLocalVelocity; } }
     
     private void Start()
     {
